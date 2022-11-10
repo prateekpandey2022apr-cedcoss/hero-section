@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #EFF6FF;
+	color: #2563EB;
+}
+
+.wrapper {
+	max-width: 1366px;
+	width: 97%;
+	margin: 0 auto;
+}
+
+[class*=col] {
+	margin-left: 4%;
+}
+
+div img {
+	width: 100%;
+	max-width: 200px;
+}
+
+.col-1 {
+	flex: 0 0 20%;
+}
+
+.col-3-4 {
+	flex: 0 0 68%;
+}
+
+a {
+	color: #2563EB;
+}
+
+.row {
+	display: flex;
+}
+
+/* start of primary nav  */
+
+.primary-navbar {
+	padding: 0.5em 0.2em;
+	justify-content: space-between;
+}
+
+.primary-nav-links {
+	display: flex;
+}
+
+.primary-nav-links div:nth-of-type(n + 2) {
+	margin-left: 6px;
+}
+
+.primary-navbar a {
+	padding: 1em 0.5em;
+	display: block;
+	text-decoration: none;
+}
+
+/* end of start of primary nav  */
+
+/* start of secondary nav */
+
+.secondary-navbar {
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5em 0.2em;
+}
+
+.secondary-navbar a {
+	padding: 1em 0.5em;
+	text-decoration: none;
+}
+
+.secondary-navbar ul {
+	display: flex;
+}
+
+.secondary-navbar-links li {
+	list-style-type: none;
+}
+
+.secondary-navbar-links li:nth-of-type(n + 2) {
+	margin-left: 6px;
+}
+
+.secondary-navbar form input {
+	padding: 5px 2px;
+	padding-left: 22px;
+}
+
+.secondary-navbar .search form {
+	position: relative;
+}
+
+.secondary-navbar .search .search-icon {
+	position: absolute;
+	top: 6px;
+	left: 5px;
+	color: #407ec9;
+}
+
+.secondary-navbar .search {
+	padding: 0.4em 0.5em;
+}
+
+/* end of secondary nav */
+
+.main {
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+/* start of sidebar */
+
+.sidebar {
+	flex: 0 0 20%;
+}
+
+.sidebar li {
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.sidebar a {
+	text-decoration: none;
+}
+
+
+/* end of sidebar */
+
+/* start of main  */
+
+.main .article-list {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #DBEAFE;
+	text-align: center;
+}
+
+.main .article {
+	flex: 0 0 30.66%;
+	border: 1px solid #e3e3e3;
+	padding: 0.5em;
+	/* text-align: center; */
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+/* end of end */
